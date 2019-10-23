@@ -9,16 +9,7 @@ import "firebase/database";
 import { log } from 'util';
 // import "firebase/firestore";
 
-let firebaseConfig = {
-    apiKey: "AIzaSyB0SXFvBdDpzHVKK_RWq3x8bSPoQS2P3Po",
-    authDomain: "drink-react.firebaseapp.com",
-    databaseURL: "https://drink-react.firebaseio.com",
-    projectId: "drink-react",
-    storageBucket: "drink-react.appspot.com",
-    messagingSenderId: "387766960018",
-    appId: "1:387766960018:web:ad5f526c7677e8034c4b4b",
-    measurementId: "G-YZY3Z2QB3K"
-  };
+
   
   // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
